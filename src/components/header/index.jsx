@@ -4,10 +4,10 @@ import Gen2 from './Generations/Gen2/index'
 import Gen3 from './Generations/Gen3/index'
 import Gen4 from './Generations/Gen4/index'
 
-const header = () => {
+const Header = () => {
     return (
       <div>
-        <h1>header</h1>
+        <h1>Header</h1>
         <Generations/>
         <Gen1/>
         <Gen2/>
@@ -17,4 +17,4 @@ const header = () => {
       
     )
   }
-export default header
+export default Header
