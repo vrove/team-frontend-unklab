@@ -1,7 +1,7 @@
-const generations = () => {
+const Generations = () => {
   return (
-    <h1>generations</h1>
+    <h1>Generations</h1>
   )
 }
 
-export default generations
+export default Generations
