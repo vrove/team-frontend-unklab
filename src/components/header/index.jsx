@@ -7,7 +7,7 @@ import Gen4 from './Generations/Gen4/index'
 const Header = () => {
     return (
       <div>
-        <h1>Header</h1>
+        <h1>Header </h1>
         <Generations/>
         <Gen1/>
         <Gen2/>
