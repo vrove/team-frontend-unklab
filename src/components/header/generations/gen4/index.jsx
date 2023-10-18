@@ -1,8 +1,8 @@
-const gen4 = () => {
+const Gen4 = () => {
     return (
-      <h1>gen4</h1>
+      <h1>Gen4</h1>
     )
   }
   
-  export default gen4
+  export default Gen4
   
