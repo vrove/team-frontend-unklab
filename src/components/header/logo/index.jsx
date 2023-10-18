@@ -1,8 +1,8 @@
-const logo = () => {
+const Logo = () => {
     return (
-      <h1>logo</h1>
+      <h1>Logo</h1>
     )
   }
   
-  export default logo
+  export default Logo
   

@@ -1,6 +1,6 @@
 const Generations = () => {
   return (
-    <h1>Generations</h1>
+    <h1>Generations </h1>
   )
 }
 
