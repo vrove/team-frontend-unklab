@@ -1,6 +1,6 @@
-const Gen2 = () => {
+const Gen2 = ({title}) => {
     return (
-      <h1>Gen2</h1>
+      <h1>{title}</h1>
     )
   }
   
