@@ -4,17 +4,13 @@ import Gen2 from './Generations/Gen2/index'
 import Gen3 from './Generations/Gen3/index'
 import Gen4 from './Generations/Gen4/index'
 
-const Header = () => {
+const Header = ({title}) => {
     return (
       <div>
-        <h1>Header</h1>
-        <Generations/>
-        <Gen1/>
-        <Gen2/>
-        <Gen3/>
-        <Gen4/>
+        <h1>{title}</h1>
+        <Generations title="Generations"/>
+        <Logo title="Logo"/>
       </div>
-      
     )
   }
 export default Header

@@ -7,9 +7,9 @@ function App() {
   return (
     <div>
       <h1>App.js</h1>
-      <Header/>
-      <Home/>
-      <Footer/>
+      <Header title="Header"/>
+      <Home title="Home"/>
+      <Footer title="Footer"/>
     </div>
   )
 }

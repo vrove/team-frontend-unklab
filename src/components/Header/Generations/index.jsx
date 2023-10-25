@@ -1,6 +1,13 @@
-const Generations = () => {
+const Generations = ({title}) => {
   return (
-    <h1>Generations</h1>
+    <div>
+      <h1>{title}</h1>
+      <Gen1 title="Gen1"/>
+      <Gen2 title="Gen1"/>
+      <Gen3 title="Gen1"/>
+      <Gen4 title="Gen1"/>
+    </div>
+    
   )
 }
 
