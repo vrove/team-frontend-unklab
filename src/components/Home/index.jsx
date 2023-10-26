@@ -1,12 +1,12 @@
 import CardInfo from './CardInfo/index'
 import Search from './Search/index'
 
-const Home = () => {
+const Home = ({title}) => {
     return (
       <div>
-        <h1>Home</h1>
-        <CardInfo/>
-        <Search/>
+        <h1>{title}</h1>
+        <CardInfo title="CardInfo"/>
+        <Search title="Search"/>
       </div>
     )
   }
