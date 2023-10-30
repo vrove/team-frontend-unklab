@@ -1,6 +1,8 @@
-const Footer = () => {
+const Footer = ({
+    title 
+}) => {
     return (
-        <h1>Footer</h1>
+        <h1>{title}</h1>
     )
 }
 
