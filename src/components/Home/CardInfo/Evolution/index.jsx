@@ -1,9 +1,7 @@
-const Evolution = () => {
-    return (
-      <div>
-        <h1>Evolution</h1>
-      </div>
-      
-    )
-  }
+const Evolution = ({title}) => {
+  return (
+    <h1>{title}</h1>
+  )
+}
+
 export default Evolution
