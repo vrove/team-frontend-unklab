@@ -1,9 +1,7 @@
-const Logo = () => {
-    return (
-      <div>
-        <h1>Logo</h1>
-      </div>
-      
-    )
-  }
+const Logo = ({title}) => {
+  return (
+    <h1>{title}</h1>
+  )
+}
+
 export default Logo
