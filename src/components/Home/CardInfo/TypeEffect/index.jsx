@@ -1,9 +1,7 @@
-const TypeEffect = () => {
-    return (
-      <div>
-        <h1>TypeEffect</h1>
-      </div>
-      
-    )
-  }
+const TypeEffect = ({title}) => {
+  return (
+    <h1>{title}</h1>
+  )
+}
+
 export default TypeEffect
